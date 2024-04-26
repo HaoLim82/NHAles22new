@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to my page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="/css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="container-sm mt-2 bg-warning">
+        <h1>My First Bootstrap Page</h1>
+        <p>This is my first attemp to make my first Bootstrap Page</p>
+    </div>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link " href="/html/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="/html/overmij.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/html/contact.html">Contact</a>
+                </li>
+            </ul>
+            <a class="navbar-brand" href="/html/overmij.html">
+            <img src="/pics/20240406_131942.jpg" alt="Logo" style="width:40px"class="rounded-pill"></a>
+        </div>
+      </nav>
+      <div class="container-sm">
+        <h4>Over Mij</h4>
+        <p>Ik ben een zelfstandige ondernemer samen met mijn vrouw runnen we een afhaalrestaurant.
+        Ook zijn we een trotse ouders van 2 lieve kinderen.</p>
+      </div>
+        
+        <div class="container-sm">
+          <h4>Werkervaring</h4>            
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Jaar</th>
+                <th>Waar/Wat</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2017 tot heden</td>
+                <td>Zelfstandige @ Lims Wok</td>
+              </tr>
+              <tr>
+                <td>2008 tot 2009</td>
+                <td>Stagaire automonteur @APKstation Lanjouw</td>
+              </tr>
+              <tr>
+                <td>2007 tot 2008</td>
+                <td>Stagaire automonteur @ Volkswagen Huiskes Kokkeler</td>
+              </tr>
+              <tr>
+                <td>2004 tot 2016</td>
+                <td>Cafetariamedewerker @ Cafetaria de Wok</td>
+              </tr>
+              <tr>
+                <td>2003 tot 2005</td>
+                <td>Vakantiekracht @ Johnson Diversey</td>
+              </tr>
+              <tr>
+                <td>1999 tot 2004</td>
+                <td>Detailhandelmedewerker @ Toko Golden Gate</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="container-sm">
+            <h4>Hobby's</h4>
+            <p>Een kijkje naar mijn Hobby's</p>
+            <!-- Carousel -->
+            <div id="hobby" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#hobby" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#hobby" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#hobby" data-bs-slide-to="2"></button>
+              <button type="button" data-bs-target="#hobby" data-bs-slide-to="3"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/pics/GAMING.jpg" alt="Gaming" class="d-block mx-auto" style="width:600px;height:500px;">
+              </div>
+              <div class="carousel-item">
+                <img src="/pics/curry kobe.jpg" alt="Basketbal" class="d-block mx-auto" style="width:500px;height:600px;">
+              </div>
+              <div class="carousel-item">
+                <img src="/pics/ASEAN-landmarks-silhouette-640.jpg" alt="Reizen" class="d-block mx-auto" style="width:800px;height:500px;">
+              </div>
+              <div class="carousel-item">
+                <img src="/pics/7562bb06-e426-477f-8fd9-9c67bd4323e2.jpeg" alt="Eten" class="d-block mx-auto" style="width:800px;height:500px;">
+              </div>
+            </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#hobby" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#hobby" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+        </div>
+
+        
+
+        </div>
+
+      <div class="mt-5 p-3 bg-dark text-white text-center fixed bottom" id="footer">
+        <p>HLdev©</p>
+      </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html
